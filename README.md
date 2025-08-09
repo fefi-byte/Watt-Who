@@ -16,7 +16,8 @@ sources:
   pv_power_sensor: sensor.hub_1200_1_output_home_power
 detection:
   sample_interval_s: 3
-  min_delta_w: 60
+  min_delta_w_day: 80
+  min_delta_w_night: 50
   min_event_duration_s: 10
   deadband_w: 40
   hysteresis_w: 15
