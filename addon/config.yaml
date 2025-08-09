@@ -1,0 +1,10 @@
+name: NILM MVP
+version: "0.1.0"
+slug: nilm_mvp
+description: "Einfaches NILM Add-on"
+startup: application
+boot: auto
+options:
+  sample_interval_s: 3
+schema:
+  sample_interval_s: int
