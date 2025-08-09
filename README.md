@@ -3,7 +3,7 @@
 Home Assistant Add-on für Non-Intrusive Load Monitoring.
 
 ## Installation
-1. Ordner `addon` nach `/addons/nilm_mvp` auf dem Home Assistant Host kopieren.
+1. Dieses Repository im Home Assistant Add-on Store als benutzerdefiniertes Repository hinzufügen (z.B. `https://github.com/example/Watt-Who`). Alternativ den Ordner `nilm_mvp` nach `/addons/nilm_mvp` auf dem Home Assistant Host kopieren.
 2. Im Add-on Store neu laden und das Add-on installieren.
 3. Starten und den Anweisungen im Log folgen.
 
@@ -28,7 +28,7 @@ locale:
 
 ## Architektur
 - `app/`: Python Service
-- `addon/`: Home Assistant Add-on Dateien
+- `nilm_mvp/`: Home Assistant Add-on Dateien
 - `tests/`: Unit-Tests
 
 Die Kernformel lautet:
