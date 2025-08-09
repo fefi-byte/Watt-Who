@@ -1,9 +1,14 @@
 import asyncio
+import sys
+from pathlib import Path
 
-from .config import load_config
-from .detection import DeltaPDetector
-from .ha_integration import sensor_data_stream
-from .storage import Storage
+# Ensure the repository root is on the Python path when running directly
+sys.path.append(str(Path(__file__).resolve().parent.parent))
+
+from app.config import load_config
+from app.detection import DeltaPDetector
+from app.ha_integration import sensor_data_stream
+from app.storage import Storage
 
 
 async def main() -> None:
