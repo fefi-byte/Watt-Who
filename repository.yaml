@@ -1,6 +1,0 @@
-name: "Watt Who"
-url: "https://github.com/fefi-byte/Watt-Who"
-maintainer: "Felix Peters"
-addons:
-  watt_who:
-    repository: "watt who"
