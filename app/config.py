@@ -21,7 +21,8 @@ class SourceConfig:
 @dataclass
 class DetectionConfig:
     sample_interval_s: int = 3
-    min_delta_w: float = 60
+    min_delta_w_day: float = 80
+    min_delta_w_night: float = 50
     min_event_duration_s: int = 10
     deadband_w: float = 40
     hysteresis_w: float = 15
