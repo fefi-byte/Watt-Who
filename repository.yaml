@@ -1,6 +1,6 @@
 name: "Watt Who"
 url: "https://github.com/example/Watt-Who"
-maintainer: "Watt Who"
+maintainer: "Felix Peters"
 addons:
   watt_who:
-    repository: hassio-addon
+    repository: "watt who"
