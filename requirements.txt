@@ -1,0 +1,10 @@
+pydantic
+numpy
+scipy
+scikit-learn
+aioschedule
+uvloop
+fastapi
+ruff
+pytest
+mypy
