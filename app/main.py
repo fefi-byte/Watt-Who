@@ -1,9 +1,9 @@
-import asyncio
-import sys
-from pathlib import Path
+"""Entry point for the CLI.
 
-# Ensure the repository root is on the Python path when running directly
-sys.path.append(str(Path(__file__).resolve().parent.parent))
+Run with ``python -m app.main``.
+"""
+
+import asyncio
 
 from app.config import load_config
 from app.detection import DeltaPDetector
