@@ -1,7 +1,3 @@
-"""Entry point for the CLI.
-
-Run with ``python -m app.main``.
-"""
 
 import asyncio
 
